@@ -865,16 +865,17 @@ letter-spacing: 0.48px;
 }
 .modal-form-custom-checkbox-icon{
     opacity: 0;
-    transform: scale(0.3);
 }
-.modal-form-checkbox:checked + .modal-form-custom-checkbox
- > .modal-form-custom-checkbox-icon {
+.modal-form-checkbox:checked + .modal-form-agreement
+ > .modal-form-custom-checkbox {
     opacity: 1;
-    transform: scale(1);
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 
+}
+.modal-form-custom-checkbox-icon{
+    fill:#ffffff;
 }
 .btn-modal{
     display: block;
