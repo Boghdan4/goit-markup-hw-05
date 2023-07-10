@@ -864,7 +864,7 @@ letter-spacing: 0.48px;
     fill:transparent;
 }
 .modal-form-custom-checkbox-icon{
-    opacity: 0;
+  
 }
 .modal-form-checkbox:checked + .modal-form-agreement
  > .modal-form-custom-checkbox {
